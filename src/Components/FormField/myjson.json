@@ -1,38 +1,14 @@
 {
   "suggestions": [
-    { "label": "Afghanistan" },
-    { "label": "Aland Islands" },
-    { "label": "Albania" },
-    { "label": "Algeria" },
-    { "label": "American Samoa" },
-    { "label": "Andorra" },
-    { "label": "Angola" },
-    { "label": "Anguilla" },
-    { "label": "Antarctica" },
-    { "label": "Antigua and Barbuda" },
-    { "label": "Argentina" },
-    { "label": "Armenia" },
-    { "label": "Aruba" },
-    { "label": "Australia" },
-    { "label": "Austria" },
-    { "label": "Azerbaijan" },
-    { "label": "Bahamas" },
-    { "label": "Bahrain" },
-    { "label": "Bangladesh" },
-    { "label": "Barbados" },
-    { "label": "Belarus" },
-    { "label": "Belgium" },
-    { "label": "Belize" },
-    { "label": "Benin" },
-    { "label": "Bermuda" },
-    { "label": "Bhutan" },
-    { "label": "Bolivia, Plurinational State of" },
-    { "label": "Bonaire, Sint Eustatius and Saba" },
-    { "label": "Bosnia and Herzegovina" },
-    { "label": "Botswana" },
-    { "label": "Bouvet Island" },
-    { "label": "Brazil" },
-    { "label": "British Indian Ocean Territory" },
-    { "label": "Brunei Darussalam" }
+    { "label": "Works Square", "subTitle":"Kalyan Technologies", "addess":"Jesus nagar, d no 12-3-632, Kalyan Junction, anantapur, Andhra Pradesh, India" },
+    { "label": "Worli Jewelleries", "subTitle":"Worli 2nd street", "addess":"Lower Parel, Orbit terraces, N.M. Joshi Marg, Mumbai, Maharashtra" },
+    { "label": "Work Force", "subTitle":"yan Technologies", "addess":"sus nagar, d no 12-3-632, yan Junction, anapur, Andhra Pradesh, India" },
+    { "label": "Wonder Square", "subTitle":"Balyan Technologies", "addess":"Asus nagar, d no 11, Yan Junction, Apura, Madhya Pradesh, India" }
   ]
 }
+
+// New one
+// https://api.myjson.com/bins/rsob3
+
+// Old one -
+// https://api.myjson.com/bins/1hj6eb

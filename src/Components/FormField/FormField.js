@@ -87,8 +87,11 @@ class FormField extends React.Component{
 
   renderSuggestion = suggestion => (
     <div>
-      {suggestion.label}
+      <div style={{fontWeight:"bold", marginBottom:"2%"}}>{suggestion.label}</div> 
+      <div style={{marginBottom:"2%"}}>({suggestion.subTitle})</div>
+      <div>{suggestion.addess}</div>
     </div>
+    
   );
 
   onSuggestionSelected = (event, { suggestion, suggestionValue, suggestionIndex, sectionIndex, method })=>{
@@ -118,7 +121,7 @@ class FormField extends React.Component{
     const {classes} = this.props;
     // Autosuggest will pass through all these props to the input.
     const inputProps = {
-      placeholder: 'Type a programming language',
+      placeholder: 'Enter Party Name',
       value,
       onChange: this.onChange
     };
@@ -142,7 +145,7 @@ class FormField extends React.Component{
           suggestion: classes.suggestion
         }}
       />
-    ): 'Loading...'; //may also fetch data in the app component to make transition smooth
+    ): 'Loading options...'; //may also fetch data in the app component to make transition smooth
   }
 }
 

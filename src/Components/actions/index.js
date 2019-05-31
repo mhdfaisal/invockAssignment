@@ -16,7 +16,7 @@ const removeSelectedSuggestion = ()=>{
 
 const fetchSuggestions = ()=>{
     return async (dispatch, getState)=>{
-        const suggestions = await axios.get("https://api.myjson.com/bins/1hj6eb");
+        const suggestions = await axios.get("https://api.myjson.com/bins/rsob3");
         dispatch({type:"FETCH_SUGGESTIONS", payload:[...suggestions.data.suggestions]})
     }
 }
