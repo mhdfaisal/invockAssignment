@@ -52,8 +52,8 @@ class ProfileCard extends React.Component{
           <Card className={classes.card}>
             <CardMedia
             className={classes.cover}
-            image="/images/user.png"
-            title="Live from space album cover"
+            image="images/user.png"
+            title=""
             />
           <div className={classes.details}>
               <CardContent className={classes.content}>

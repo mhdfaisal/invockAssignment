@@ -121,7 +121,7 @@ class FormField extends React.Component{
     const {classes} = this.props;
     // Autosuggest will pass through all these props to the input.
     const inputProps = {
-      placeholder: 'Enter Party Name',
+      placeholder: 'Enter Party Name (Wor..)',
       value,
       onChange: this.onChange
     };
